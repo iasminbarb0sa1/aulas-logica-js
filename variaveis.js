@@ -14,6 +14,43 @@
 
 const nome = "Iasmin"
 
-nome = "João"
+const sobrenome = "Barbosa"
 
-console.log(nome)
+const valor = 20
+
+const isLogin = false //boolean
+
+let preco //undefined
+
+const endereco = null
+
+const alunos = ["João, Maria, José"] //array
+
+const alunoDoSenai = {
+    nome: "Iasmin",
+    sobrenome: "Barbosa",
+    turno: "Noturno",
+    idade: 18,
+    curso: ["games", "programação web"]
+}
+
+const alunosDoSenai = [
+    {
+        login: "joao",
+        email: "joão@gmail.com",
+        cursos: ["games", "web"]
+    },
+    {
+        login: "maria",
+        email: "maria@gmail.com",
+        cursos: ["design", "games"]
+    }
+]
+
+//console.log(nome + " " + sobrenome)
+
+console.log(`Meu nome completo é ${nome} ${sobrenome} `)
+
+//console.log(alunosDoSenai.cursos[1])
+
+//console.log(alunos[0])  //pega o valor do índice do array
