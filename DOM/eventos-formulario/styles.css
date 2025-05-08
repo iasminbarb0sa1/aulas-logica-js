@@ -1,0 +1,62 @@
+/* Centraliza o conteúdo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Estilo do formulário */
+  #formBusca {
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Campo de texto */
+  #busca {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  #busca:focus {
+    border-color: #0088cc;
+  }
+  
+  /* Botão */
+  #botaoBusca {
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #botaoBusca:hover {
+    background-color: #006fa3;
+  }
+  
+  /* Resultado */
+  #resultado {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    max-width: 500px;
+    text-align: center;
+  }
+  

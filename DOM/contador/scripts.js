@@ -1,10 +1,17 @@
-let contador = 0
+let contador = 0;
 
-const resultado = document.querySelector("#resultado")
+const resultado = document.getElementById("resultado");
+const btnIncrementar = document.getElementById("btnIncrementar");
+const btnDiminuir = document.getElementById("btnDiminuir");
 
-const btnIncrementaValor = document.querySelector("#btnIncrementar")
+btnIncrementar.addEventListener("click", () => {
+    contador++;
+    resultado.textContent = ` Contador:  ${contador}`
+});
 
-btnIncrementaValor.addEventListener("click", ()=>{
-    contador++
-    resultado.textContent = `Contador: ${contador}`
-})
+btnDiminuir.addEventListener("click", () => {
+    if(contador > 0){
+    contador--;
+    resultado.textContent = ` Contador:  ${contador}` 
+    }
+});

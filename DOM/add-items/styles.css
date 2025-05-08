@@ -1,0 +1,45 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+
+  #itemInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  #addItem {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #addItem:hover {
+    background-color: #218838;
+  }
+
+  #lista {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #lista li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
